@@ -21,10 +21,15 @@
             <h1>Welcome, {{ username }}</h1>
         </div>
 
+        <div class="home-image-container">
+            <img src="../assets/3d doctor asset 1.png"/>
+        </div>
+
         <div class="home-container">
             <div class="notifications-container">
                 <h3>Enjoy Discounts of up to 50%</h3>
-                <div class="notifications-button">
+
+                <div class="notifications-button-container">
                     <button>Buy Now</button>
                 </div>
             </div>
@@ -85,7 +90,8 @@ body {
     top: 20px;
 }
 .notifications-container h3{
-    font-size: 30px
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .notifications-container button {
@@ -93,6 +99,11 @@ body {
    padding: 10px;
    border: none;
    border-radius: 20px;
+}
+
+.notfications-button-container {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .order-container {
@@ -119,6 +130,7 @@ body {
 .order-container h3{
  color: rgb(221,
   205, 151);
+  font-size: 22px;
 }
 .order-container button {
     border: none;
@@ -174,5 +186,19 @@ body {
     height: 50px;
     width: 50px;
     border-radius: 30px;
+}
+.view-order-button {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.home-image-container {
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+}
+.home-image-container img{
+    height: 400px;
+    width: 400px;
 }
 </style>

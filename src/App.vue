@@ -12,7 +12,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <nav class="navbar">
         <RouterLink to="/" class="nav-item"><i class="material-symbols-outlined">home</i></RouterLink>
           <RouterLink to="/history" class="nav-item"><i class="material-symbols-outlined">history</i></RouterLink>
-          <RouterLink to="/shopping_cart" class="nav-item"><i class="material-symbols-outlined">shopping_cart</i></RouterLink>
+          <RouterLink to="/cart" class="nav-item"><i class="material-symbols-outlined">shopping_cart</i></RouterLink>
           <RouterLink to="/account" class="nav-item"><i class="material-symbols-outlined">account_circle</i></RouterLink>
       </nav>
     </div>

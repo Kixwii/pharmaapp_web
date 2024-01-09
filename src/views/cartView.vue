@@ -11,7 +11,7 @@
     <body>
         <div>
             <div class="cart-page-title">
-                <h3>Your Cart</h3>
+                <h1>Your Cart</h1>
             </div>
             <div class="items-container">
                 <cartItem></cartItem>

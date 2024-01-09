@@ -18,13 +18,6 @@ const router = createRouter({
       component: () => import('../views/order_historyView.vue')
     },
     {
-      path: '/shopping_cart',
-      name: 'shopping_cart',
-
-
-      component: () => import('../views/shopping_cartView.vue')
-    },
-    {
       path: '/account',
       name: 'account',
 
