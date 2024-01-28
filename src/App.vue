@@ -22,6 +22,8 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style scoped>
+
+/* The color red has been used in the image boxes as a placeholder */
 .navbar {
     position: fixed;
     top:0;
