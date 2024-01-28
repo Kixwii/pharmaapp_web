@@ -5,7 +5,7 @@ Pharma app is a website allowing a user to login and shop for the most affordabl
 
 ### File Structure
 - **`<script setup>`:**
-  - This section utilizes React's `<script setup>` for more concise and readable code.
+  - This section utilizes Vue's `<script setup>` for more concise and readable code.
 
 - **`<template>`:**
   - Defines the structure of the home page.
@@ -18,7 +18,7 @@ Pharma app is a website allowing a user to login and shop for the most affordabl
   - Responsive design with careful attention to colors, fonts, and layout.
 
 ### Technologies Used
-- **React:** Leveraging the power of React for efficient and reactive user interfaces.
+- **Vue:** Leveraging the power of Vue for efficient and reactive user interfaces.
 - **Material Symbols Outlined:** Integrating visually appealing icons for enhanced user experience.
 - **HTML and CSS:** Structuring and styling the web page for a polished appearance.
 - **Poppins Font:** Enhancing the typography for a modern and clean look.
