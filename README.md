@@ -5,7 +5,7 @@ Pharma app is a website allowing a user to login and shop for the most affordabl
 
 **Features**
 
-### Home Page:
+### Front-end Home Page:
 
 #### Carousel:
 Dynamically showcases:
