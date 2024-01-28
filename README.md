@@ -3,19 +3,81 @@
 ### Description
 Pharma app is a website allowing a user to login and shop for the most affordable and convenient medicine within their premises
 
-### File Structure
-- **`<script setup>`:**
-  - This section utilizes Vue's `<script setup>` for more concise and readable code.
+**Features**
 
-- **`<template>`:**
-  - Defines the structure of the home page.
-  - Features a search segment, welcome text, promotional notifications, order viewing, and a document scanner button.
-  - Utilizes Material Symbols Outlined icons for a visually appealing interface.
+### Home Page:
 
-- **`<style>`:**
-  - Defines the styling for various elements within the application.
-  - Includes styling for the body, search segment, welcome text, notifications, order container, navigation bar, scan button, and more.
-  - Responsive design with careful attention to colors, fonts, and layout.
+#### Carousel:
+Dynamically showcases:
+
+- Orders made
+- Products with discounts
+- Products based on user's buying history
+
+#### Dashboard:
+Navigation Links:
+
+- Home link
+- Purchase history
+- Cart
+- Account profile
+- FAQs
+
+#### Search Bar:
+
+- **Product Search:**
+  Enables users to search for specific products.
+
+- **Pharmacy Nearby:**
+  Provides a convenient way to find nearby pharmacies.
+
+#### Order Tab:
+
+- **Order Progress:**
+  Displays the current status (Approved, Processing, Denied) of the ongoing order.
+
+- **Order History:**
+  Shows a comprehensive history of previous orders.
+
+#### Prescription Scan:
+Document Scanner:
+
+- Allows users to scan existing prescriptions/documents for easy reordering.
+
+### Purchase History:
+
+- **Detailed History:**
+  Includes information such as date, products purchased, and total price for each transaction.
+
+### Account:
+
+- **User Profile:**
+  Displays the user's image for personalization.
+
+- **Payment Setup:**
+  Supports multiple payment methods including MPESA, Card, and Insurance.
+
+- **Settings:**
+  Allows users to customize application settings for a personalized experience.
+
+- **Log-out Features:**
+  Provides a secure and convenient log-out option.
+
+### Cart:
+
+- **Product Details:**
+  Displays product image, quantity, price, and applicable discounts.
+
+- **Proceed to Checkout:**
+  Offers a seamless transition to the checkout process.
+
+### Checkout:
+
+- **Payment Options:**
+  Supports various payment methods for user convenience.
+
+- **Method of Pay:**
+  Allows users to choose their preferred payment method.
 
 ### Technologies Used
 - **Vue:** Leveraging the power of Vue for efficient and reactive user interfaces.
