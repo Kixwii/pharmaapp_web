@@ -1,12 +1,15 @@
-import { ref, computed } from 'vue'
-import { defineStore } from 'pinia'
+import { useState, useMemo } from 'react';
 
-export const useCounterStore = defineStore('counter', () => {
-  const count = ref(0)
-  const doubleCount = computed(() => count.value * 2)
-  function increment() {
-    count.value++
-  }
+const useCounterStore = () => {
+  const [count, setCount] = useState(0);
 
-  return { count, doubleCount, increment }
-})
+  const doubleCount = useMemo(() => count * 2, [count]);
+
+  const increment = () => {
+    setCount((prevCount) => prevCount + 1);
+  };
+
+  return { count, doubleCount, increment };
+};
+
+export default useCounterStore;

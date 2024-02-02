@@ -1,14 +1,20 @@
-import './assets/main.css'
+import './assets/main.css';
+import React from 'react';
+import { render } from 'react-dom';
+import { createPinia } from 'pinia';
+import { createBrowserHistory } from 'history';
+import { PiniaProvider } from 'pinia/react';
+import App from './components/App.jsx/index.js';
 
-import { createApp } from 'vue'
-import { createPinia } from 'pinia'
+const pinia = createPinia();
+const history = createBrowserHistory();
 
-import App from './App.vue'
-import router from './router'
+const app = (
+  <PiniaProvider pinia={pinia}>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </PiniaProvider>
+);
 
-const app = createApp(App)
-
-app.use(createPinia())
-app.use(router)
-
-app.mount('#app')
+render(app, document.getElementById('app'));
